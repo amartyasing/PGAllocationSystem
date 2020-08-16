@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="@string/menu_home"
+           />
+        <item
+            android:id="@+id/roomtype"
+            android:title="@string/menu_roomtype"
+            android:icon="@mipmap/bed"/>
+        <item
+            android:id="@+id/roomcategory"
+            android:title="@string/menu_roomcategory"
+            android:icon="@mipmap/minisplit"/>
+        <item
+            android:id="@+id/roomdetails"
+            android:title="@string/menu_roomdetails"
+            android:icon="@mipmap/donotdisturb"/>
+        <item
+            android:id="@+id/report"
+            android:icon="@mipmap/newspaper"
+            android:title="@string/menu_report" />
+        <item
+            android:id="@+id/contact"
+            android:title="@string/menu_contact"
+            android:icon="@mipmap/telephone"
+            />
+
+
+
+    </group>
+
+
+</menu>

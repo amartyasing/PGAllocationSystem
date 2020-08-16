@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_span="2"
+            android:textColor="#FF9100"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:text="@string/menu_roomdetails"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="50dp">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_roomno"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter RoomNo"
+            android:layout_marginRight="30dp"
+            android:inputType="number"
+            android:id="@+id/roomnoroomdetail"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp">
+        <TextView android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textview_roomid"/>
+        <Spinner
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="70dp"
+            android:id="@+id/roomidroomdetail"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_status"/>
+      <Spinner
+          android:layout_width="wrap_content"
+          android:layout_marginRight="70dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/spinstatus">
+
+      </Spinner>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_noofcandidates"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter NoOfCandidate"
+            android:inputType="number"
+            android:layout_marginRight="30dp"
+            android:id="@+id/noofcandidate"
+            />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:text="@string/button_addroomdetails"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_span="2"
+            android:background="@drawable/customa"
+            android:id="@+id/addroomdtails"
+            android:textStyle="bold"
+           android:textColor="@color/cardview_light_background"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="18sp"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/pgalloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:drawableTop="@mipmap/pgalloc"
+        android:text="@string/button_roomallot"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/candidatedetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_light_background"
+        android:drawableTop="@mipmap/usermanage"
+        android:text="@string/button_canditatedetails"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</ScrollView>

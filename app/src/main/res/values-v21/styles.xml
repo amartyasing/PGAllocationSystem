@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="hinttext" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">#010B16</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+</resources>

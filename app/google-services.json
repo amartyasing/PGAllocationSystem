@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098292706194",
+    "firebase_url": "https://pgallocationsystem.firebaseio.com",
+    "project_id": "pgallocationsystem",
+    "storage_bucket": "pgallocationsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098292706194:android:bfd2978ddbc86ebe",
+        "android_client_info": {
+          "package_name": "com.example.pgallocationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098292706194-h8kntjo3u7g2jlnf2v8a6sk0fnoerdso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pgallocationsystem",
+            "certificate_hash": "aa440e9c340ceaf6533e258367398018e565c35c"
+          }
+        },
+        {
+          "client_id": "1098292706194-6bdmhqnp1jsnu85v4ne1sf9chqec04ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhsGYOmeNDGcRKwMdEO2gMjfI3Z69BM3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098292706194-6bdmhqnp1jsnu85v4ne1sf9chqec04ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

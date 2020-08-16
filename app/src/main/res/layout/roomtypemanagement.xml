@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+
+        <TextView
+            android:layout_width="286dp"
+            android:layout_marginTop="30dp"
+            android:layout_span="2"
+            android:textColor="#FF9100"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="2"
+            android:text="@string/menu_roomtype"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="130dp">
+        <TextView android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textview_typeid"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginRight="30dp"
+            android:hint="Enter TypeID"
+            android:id="@+id/typeidroomtyp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_typename"/>
+        <Spinner
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:id="@+id/typename"
+            />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_span="2"
+            android:id="@+id/addroomtype"
+            android:background="@drawable/customa"
+            android:text="@string/button_addroomtype"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+
+</TableLayout>

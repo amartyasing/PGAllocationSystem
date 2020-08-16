@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_span="2"
+            android:textColor="#FF9100"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:text="@string/menu_roomcategory"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="30dp">
+        <TextView android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textview_roomid"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:hint="Enter RoomID"
+            android:layout_marginRight="30dp"
+            android:id="@+id/roomidroomcategory"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_typeid"/>
+
+        <Spinner
+            android:id="@+id/typeidroomcategory"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            android:textSize="22sp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_noofrooms"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter NoOfRooms"
+            android:layout_marginRight="30dp"
+            android:inputType="number"
+            android:id="@+id/noofroom"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_equippedwith"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Equippedwith"
+            android:id="@+id/equippedwith"
+            android:layout_marginRight="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_monthlycharge"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:hint="Enter Monthlycharge"
+            android:id="@+id/monthlycharge"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"
+            android:text="@string/textview_facilities"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Facilities"
+            android:layout_marginRight="30dp"
+            android:id="@+id/facilities"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="@string/button_addroomcategory"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_span="2"
+            android:background="@drawable/customa"
+            android:id="@+id/addroomcategory"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="75dp"
+            android:textSize="18sp"/>
+    </TableRow>
+
+
+</TableLayout>
